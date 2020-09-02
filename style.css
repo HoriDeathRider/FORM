@@ -84,6 +84,7 @@ p{
 
 input:focus{
     opacity: 1;
+    border: 0;
     border-left: 15px ;
     border-color: purple;
     border-style: solid;
@@ -92,8 +93,9 @@ input:focus{
 
 .form__massage:focus{
     opacity: 1;
+    border:0;
     border-left: 15px ;
     border-color: purple;
-  
+    border-style: solid;
     outline: none;
 }
