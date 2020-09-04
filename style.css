@@ -2,35 +2,42 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 
 body{
-    background-image: url(img/contact.png);
-    background-size: 100%;
+    background-image: url('img/contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
 }
 
 h1{
-    font-weight: 700;
     font-size: 50px;
-    text-align: center;
     margin-top: 10px;
 }
 
+
 .contact__text{
-    text-align: center;
     width: 340px;
-    height: 60px;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .wrapper{
     display: flex;
+    justify-content: center;
 }
 
 input::placeholder{
     color: white;
-    font-weight: 400;
+}
+
+.form__wrapper{
+    margin-right: 150px;
 }
 
 .form__input{
@@ -40,11 +47,9 @@ input::placeholder{
    background-color: aquamarine;
    opacity: 0.7;
    border: none;
-   margin-top: 10px;
-   margin-left: 150px;
-   padding-left: 10px;
+   margin-bottom: 10px;
+   padding: 20px 0px 20px 10px;
    color: white;
-   font-weight: 400;
    font-size: 16px;
 }
 
@@ -55,47 +60,37 @@ input::placeholder{
     background-color: aquamarine;
     opacity: 0.7;
     border: none;
-    margin-top: 10px;
     color: white;
-    margin-left: 150px;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0px 0px 10px;
     font-size: 16px;
 }
 
-
-
-.div__wrapper{
-margin-left: 150px;
+button{
+    text-transform: uppercase;
 }
 
 h2{
     font-size: 14px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p{
-    margin-top: 5px; 
+    margin-bottom: 5px; 
 }
 
 .contacts{
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input:focus{
     opacity: 1;
-    border: 0;
-    border-left: 15px ;
-    border-color: purple;
-    border-style: solid;
+    border-left: 15px solid purple;
     outline: none;
 }
 
 .form__massage:focus{
     opacity: 1;
-    border:0;
-    border-left: 15px ;
-    border-color: purple;
-    border-style: solid;
+    border-left: 15px solid purple;
     outline: none;
 }
