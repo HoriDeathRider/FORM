@@ -13,7 +13,8 @@ body{
 
 .header{
     text-align: center;
-    margin: 10px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
+    padding-top: 20px;
 }
 
 h1{
@@ -39,7 +40,7 @@ input::placeholder{
     margin-right: 150px;
 }
 
-.form__input, .form__massage{
+.form{
     display: block;
     width: 500px;
     background-color: aquamarine;
@@ -51,7 +52,7 @@ input::placeholder{
     font-size: 16px;
 }
 
-.form__massage{
+textarea{
     height: 250px;
     margin-bottom: 10px;
     padding: 10px 0px 0px 10px;
@@ -81,7 +82,7 @@ h2{
     margin-bottom: 20px;
 }
 
-input:focus, .form__massage:focus{
+input:focus, textarea:focus{
     opacity: 1;
     border-left: 15px solid purple;
     outline: none;
